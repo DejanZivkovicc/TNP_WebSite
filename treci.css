@@ -1,0 +1,186 @@
+body{  
+    background-image: url('pozadina.png');
+    background-size: cover;
+ }
+ 
+ .header_omotac{
+     height: auto;
+     width: 79.7%;
+     
+     position: fixed;
+     top: 0px;
+    left: 10%;
+    right: 10%;
+    
+   
+     z-index: 5;
+     background-color: rgb(94, 105, 105);
+     border-radius: 0px 0px 25px 25px;
+     border: 3px solid black;
+ }
+ 
+ #header_slika{
+     display: inline-block;
+     width: 30%;
+    /* background-color: burlywood; */
+     text-align: left;
+     padding: 6px 0px 0px 3%;
+ }
+ 
+ #header_linkovi{
+     display: inline-block;
+     width: 60%;
+     text-align: center;
+     font-size: 45px;
+     padding: 5px 0px 0px 3%;
+     vertical-align: top;
+ }
+ 
+ #header_linkovi li{
+     display: inline;
+     padding: 10%;
+     /*margin-top: 10px; */
+ }
+
+main{
+    position: relative;
+   /* margin-top: 100px;
+    */width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    
+   margin: 100px auto;
+    
+    /* left: 8.6%;
+    right: 9.4%; */
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 0.2%;
+    font-size: 30px;
+    background-color: rgb(64, 66, 70);
+    color: rgb(185, 11, 11);
+}
+
+main #main_naslov {
+    text-align: center;
+    color: rgb(10, 6, 6);
+}
+
+main #main_naslov h1:hover{
+    text-decoration: underline solid black;
+    background-color: rgb(66, 130, 250);
+    border-radius: 25px;
+}
+
+dt{
+    font-size: 50px;
+    
+}
+
+dd{
+    font-size: 120%;
+    padding: 0px 0px 50px 0px;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a img:hover{
+    background-color: rgba(228, 37, 24, 0.979);
+}
+
+a.gornji_link:link{
+    color: rgb(4, 70, 170);
+}
+
+a.gornji_link:visited{
+    color: rgb(4, 70, 170);
+}
+
+a.gornji_link:hover{
+   background-color: rgba(228, 37, 24, 0.979);
+   cursor: grab;
+}
+
+a.gornji_link:active{
+    cursor: grabbing;
+}
+
+a.link:link{
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: rgb(12, 128, 206);
+}
+
+a.link:visited{
+    color: rgb(12, 128, 206);
+    text-decoration-line: overline dotted rgb(12, 128, 206) ;
+}
+
+a.link:hover{
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-decoration: underline dashed rgb(12, 128, 206);
+    cursor: grab;
+}
+
+a.gornji_link:active{
+    cursor: grabbing;
+}
+
+@media only screen and (max-width: 414px){
+    .header_omotac{
+        height: auto;
+        width: 80%;
+        min-width: 80%;
+        max-width: 80%;
+        position: fixed;
+        top: 0px;
+        /*left: 9%;
+        right: 9.4%;
+        float: left;
+       */
+       left: 10%;
+       right: 10%;
+       
+      
+        z-index: 5;
+        background-color: rgb(94, 105, 105);
+        border-radius: 0px 0px 25px 25px;
+        border: 3px solid black;
+    }
+    
+    #header_slika{
+        display: inline-block;
+        width: 30%;
+       /* background-color: burlywood; */
+        text-align: left;
+        padding: 6px 0px 0px 3%;
+    }
+    
+    #header_linkovi{
+        display: inline-block;
+        width: 60%;
+        text-align: center;
+        font-size: 250%;
+        padding: 5px 0px 0px 3%;
+        vertical-align: top;
+    }
+    
+    #header_linkovi li{
+        display: inline;
+        padding: 10%;
+        /*margin-top: 10px; */
+    }
+   
+    dd{
+        font-size: 110%;
+        padding: 0px 0px 50px 0px;
+        color: black;
+
+}

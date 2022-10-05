@@ -1,0 +1,141 @@
+body{
+    /*height: 3000px;
+    width: 1800px;
+    */background-image: url('pozadina.png');
+    background-size: cover;
+}
+
+.header_omotac{
+    height: auto;
+    width: 80%;
+    position: fixed;
+    top: 0px;
+    left: 10%;
+    right: 10%; 
+    z-index: 5;
+    background-color: rgb(94, 105, 105);
+    border-radius: 0px 0px 25px 25px;
+    border: 3px solid black;
+}
+
+#header_slika{
+    display: inline-block;
+    width: 30%;
+   /* background-color: burlywood; */
+    text-align: left;
+    padding: 6px 0px 0px 3%;
+}
+
+#header_linkovi{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    font-size: 45px;
+    padding: 5px 0px 0px 3%;
+    vertical-align: top;
+}
+
+#header_linkovi li{
+    display: inline;
+    padding: 10%;
+    /*margin-top: 10px; */
+}
+
+main{
+    position: relative;
+    width: 80%;
+    /*margin-top: 100px;
+    left: 10%;
+    right: 10%;*/
+    margin: 100px auto;
+    
+    background-color: rgba(82, 82, 83, 0.89);
+    border-radius: 25px;
+    border: 3px solid black;
+    
+    font-size: 30px;
+    font-family: Calibri, serif;
+}
+
+#main_tekst{
+  padding: 25px;
+}
+
+main #main_tekst h1{
+  background-color: rgba(55, 55, 56, 0.89);
+  border-radius: 15px;
+}
+
+.centar_teksta{
+    text-align: center;
+}
+
+#main_slike img{
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+}
+
+figure{
+    display: inline-block;
+    text-align: center;
+}
+
+figure img{
+  border: 2px solid black;
+}
+
+#dugme{
+  position: relative;
+  margin: 50px auto;
+  width: 150px;
+}
+
+main div h1:hover{
+    letter-spacing: 15px;
+    word-spacing: 15px;
+    text-decoration: underline solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img:hover{
+    background-color: rgba(228, 37, 24, 0.979);
+}
+
+a.gornji_link:link{
+    color: rgb(4, 70, 170);
+}
+
+a.gornji_link:visited{
+    color: rgb(4, 70, 170);
+}
+
+a.gornji_link:hover{
+   background-color: rgba(228, 37, 24, 0.979);
+   cursor: grab;
+}
+
+a.gornji_link:active{
+    cursor: grabbing;
+}
+
+@media only screen and (min-width: 471px) and (max-width: 600px){
+    main{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    main{
+        width: 100%;
+    }
+
+    #main_slike figure img{
+        width: 300px;
+        height: 250px;    
+
+    }  
+
+}
